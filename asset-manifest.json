@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/e-healthcare-management/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/e-healthcare-management/static/js/main.6697f258.chunk.js",
-    "main.js.map": "/e-healthcare-management/static/js/main.6697f258.chunk.js.map",
-    "runtime-main.js": "/e-healthcare-management/static/js/runtime-main.78b21b7f.js",
-    "runtime-main.js.map": "/e-healthcare-management/static/js/runtime-main.78b21b7f.js.map",
-    "static/js/2.17aa327a.chunk.js": "/e-healthcare-management/static/js/2.17aa327a.chunk.js",
-    "static/js/2.17aa327a.chunk.js.map": "/e-healthcare-management/static/js/2.17aa327a.chunk.js.map",
-    "static/js/3.71972f15.chunk.js": "/e-healthcare-management/static/js/3.71972f15.chunk.js",
-    "static/js/3.71972f15.chunk.js.map": "/e-healthcare-management/static/js/3.71972f15.chunk.js.map",
+    "main.css": "/e-healthcare-management/static/css/main.2aaaae9f.chunk.css",
+    "main.js": "/e-healthcare-management/static/js/main.35d2ad9a.chunk.js",
+    "main.js.map": "/e-healthcare-management/static/js/main.35d2ad9a.chunk.js.map",
+    "runtime-main.js": "/e-healthcare-management/static/js/runtime-main.e930ea8b.js",
+    "runtime-main.js.map": "/e-healthcare-management/static/js/runtime-main.e930ea8b.js.map",
+    "static/js/2.7fb54955.chunk.js": "/e-healthcare-management/static/js/2.7fb54955.chunk.js",
+    "static/js/2.7fb54955.chunk.js.map": "/e-healthcare-management/static/js/2.7fb54955.chunk.js.map",
+    "static/js/3.921c394d.chunk.js": "/e-healthcare-management/static/js/3.921c394d.chunk.js",
+    "static/js/3.921c394d.chunk.js.map": "/e-healthcare-management/static/js/3.921c394d.chunk.js.map",
     "index.html": "/e-healthcare-management/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/e-healthcare-management/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.17aa327a.chunk.js.LICENSE.txt": "/e-healthcare-management/static/js/2.17aa327a.chunk.js.LICENSE.txt"
+    "static/css/main.2aaaae9f.chunk.css.map": "/e-healthcare-management/static/css/main.2aaaae9f.chunk.css.map",
+    "static/js/2.7fb54955.chunk.js.LICENSE.txt": "/e-healthcare-management/static/js/2.7fb54955.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.78b21b7f.js",
-    "static/js/2.17aa327a.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.6697f258.chunk.js"
+    "static/js/runtime-main.e930ea8b.js",
+    "static/js/2.7fb54955.chunk.js",
+    "static/css/main.2aaaae9f.chunk.css",
+    "static/js/main.35d2ad9a.chunk.js"
   ]
 }
