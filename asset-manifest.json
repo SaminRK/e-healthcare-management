@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/e-healthcare-management/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/e-healthcare-management/static/js/main.8937bbe9.chunk.js",
+    "main.js.map": "/e-healthcare-management/static/js/main.8937bbe9.chunk.js.map",
+    "runtime-main.js": "/e-healthcare-management/static/js/runtime-main.f91c11a5.js",
+    "runtime-main.js.map": "/e-healthcare-management/static/js/runtime-main.f91c11a5.js.map",
+    "static/js/2.ce9a2bf3.chunk.js": "/e-healthcare-management/static/js/2.ce9a2bf3.chunk.js",
+    "static/js/2.ce9a2bf3.chunk.js.map": "/e-healthcare-management/static/js/2.ce9a2bf3.chunk.js.map",
+    "static/js/3.113eef72.chunk.js": "/e-healthcare-management/static/js/3.113eef72.chunk.js",
+    "static/js/3.113eef72.chunk.js.map": "/e-healthcare-management/static/js/3.113eef72.chunk.js.map",
+    "index.html": "/e-healthcare-management/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/e-healthcare-management/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.ce9a2bf3.chunk.js.LICENSE.txt": "/e-healthcare-management/static/js/2.ce9a2bf3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/e-healthcare-management/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f91c11a5.js",
+    "static/js/2.ce9a2bf3.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.8937bbe9.chunk.js"
+  ]
+}
