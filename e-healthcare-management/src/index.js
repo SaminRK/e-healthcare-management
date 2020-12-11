@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import "./index.css";
 import MainWindow from "./MainWindow/MainWindow";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-	<BrowserRouter>
+	<Router basename="/">
 		<MainWindow></MainWindow>
-	</BrowserRouter>,
+	</Router>,
 	document.getElementById("root")
 );
 
