@@ -1,0 +1,45 @@
+h2, h3, h4 {
+    margin: 0;
+}
+
+button {
+	background-color: white;
+    margin-right: 5px;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.area {
+    padding: 20px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.ash {
+    background-color: #f1f1f1;
+}
+
+.right {
+    margin-left: 80%;
+}
+
+.userImage {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.round {
+    border-radius: 5px;
+}

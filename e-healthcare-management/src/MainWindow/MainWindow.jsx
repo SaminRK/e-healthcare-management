@@ -5,6 +5,8 @@ import MedicalRecords from "../MedicalRecords/MedicalRecords";
 import Home from "../Home/Home";
 import MedicalRecordsProvider from "../model/MedicalRecordsProvider";
 import "./MainWindow.css";
+import "../General.css";
+import user from "../assets/user.png";
 
 class MainWindow extends React.Component {
 	constructor(props) {
@@ -14,7 +16,16 @@ class MainWindow extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<React.Fragment>
+				<div className="border">
+					<div className="right border round padding">
+					<img className="userImage" src={user}></img>
+					<br></br>Fazle Rafsani
+					<br></br><a href="dead">logout</a>
+					</div>
+					
+				</div>
+				<div>
 				<nav>
 					<ul className="sidenav">
 						<li>
@@ -71,6 +82,8 @@ class MainWindow extends React.Component {
 					</Switch>
 				</div>
 			</div>
+			</React.Fragment>
+			
 		);
 	}
 }
