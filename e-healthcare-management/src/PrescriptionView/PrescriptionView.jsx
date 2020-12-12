@@ -29,7 +29,7 @@ class PrescriptionView extends React.Component {
 					sex={props.patientSex}
 					address={props.patientAddress}
 				/>
-				<div className="columnContainer">
+				<div className="row">
 					<div className="column">
 						<Column boxes={boxes[0]} />
 					</div>

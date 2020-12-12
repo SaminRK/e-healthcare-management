@@ -98,11 +98,8 @@ class MedicalRecordsProvider {
 				},
 			],
 		});
-    }
-	constructor() {
-        
-    }
-
+	}
+	
     static getMedicalRecordKeys() {
         return [...MedicalRecordsProvider.medicalRecords.keys()];
     }
