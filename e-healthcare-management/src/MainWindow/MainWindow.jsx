@@ -1,31 +1,39 @@
 import React from "react";
-import { Link, Route, Switch } from "react-router-dom";
+import { NavLink, Route, Switch } from "react-router-dom";
 import FindDoctors from "../FindDoctors/FindDoctors";
 import MedicalRecords from "../MedicalRecords/MedicalRecords";
 import Home from "../Home/Home";
+import MedicalRecordsProvider from "../model/MedicalRecordsProvider";
+import "./MainWindow.css";
 
-export default function MainWindow() {
-    return (
-		<div>
-			<nav className="navbar navbar-light">
-				<ul className="nav navbar-nav">
+class MainWindow extends React.Component {
+    constructor(props) {
+        super(props);
+        MedicalRecordsProvider.populate();
+    }
+
+    render() {
+        return(
+            <div>
+			<nav>
+				<ul className="sidenav">
 					<li>
-						<Link to="/">Home</Link>
+						<NavLink to="/">Home</NavLink>
 					</li>
 					<li>
-						<Link to="/find-doctors">
+						<NavLink to="/find-doctors">
 							Find Doctors
-						</Link>
+						</NavLink>
 					</li>
 					<li>
-						<Link to="/medical-records">
+						<NavLink to="/medical-records">
 							Medical Records
-						</Link>
+						</NavLink>
 					</li>
 				</ul>
 			</nav>
-
-			{/* Route components are rendered if the path prop matches the current URL */}
+            <div className="content">
+                {/* Route components are rendered if the path prop matches the current URL */}
 			<Switch>
 				<Route exact path="/">
 					<Home />
@@ -40,6 +48,13 @@ export default function MainWindow() {
 					<Home />
 				</Route>
 			</Switch>
+            </div>
+
+			
 		</div>
-	);
+
+        );
+    }
 }
+
+export default MainWindow;

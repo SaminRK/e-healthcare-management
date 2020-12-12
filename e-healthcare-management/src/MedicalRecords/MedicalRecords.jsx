@@ -1,6 +1,6 @@
 import React from "react";
 import {
-	Link,
+	NavLink,
 	Route,
 	Switch,
 	useParams,
@@ -11,8 +11,7 @@ import MedicalRecordsProvider from "../model/MedicalRecordsProvider";
 
 const MedicalRecord = () => {
 	const { name } = useParams();
-	const medicalRecordsProvider = new MedicalRecordsProvider();
-	const medicalRecord = medicalRecordsProvider.getMedicalRecord(name);
+	const medicalRecord = MedicalRecordsProvider.getMedicalRecord(name);
 
 	return (
 		<div>
@@ -24,30 +23,34 @@ const MedicalRecord = () => {
 
 const MedicalRecords = () => {
 	const { url, path } = useRouteMatch();
-	const medicalRecordsProvider = new MedicalRecordsProvider();
-	const medicalRecords = medicalRecordsProvider.getMedicalRecords();
-	const medicalRecordKeys = [...medicalRecords.keys()];
+	const medicalRecordKeys = MedicalRecordsProvider.getMedicalRecordKeys();
+    const medicalRecords = MedicalRecordsProvider.getMedicalRecords();
+
+    console.log({medicalRecords});
 
 	return (
 		<div>
-			<ul>
+			<ul className="sidenav">
 				{medicalRecordKeys.map((key, id) => {
 					return (
 						<li key={key}>
-							<Link to={`${url}/${key}`}>
+							<NavLink activeStyle={{backgroundColor: "green"}} to={`${url}/${key}`}>
 								{`Prescription by ${
 									medicalRecords.get(key).prescribedBy
 								} on ${medicalRecords.get(key).date} ${key}`}
-							</Link>
+							</NavLink>
 						</li>
 					);
 				})}
 			</ul>
-			<Switch>
+            <div className="content">
+            <Switch>
 				<Route path={`${path}/:name`}>
 					<MedicalRecord />
 				</Route>
 			</Switch>
+            </div>
+			
 		</div>
 	);
 };
